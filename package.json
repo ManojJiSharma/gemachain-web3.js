@@ -1,6 +1,6 @@
 {
   "name": "@dainocreation/web3.js",
-  "version": "0.0.2-development",
+  "version": "0.0.3-development",
   "description": "Gemachain Javascript API",
   "keywords": [
     "api",
@@ -62,7 +62,7 @@
     "test:live-with-test-validator": "start-server-and-test 'solana-test-validator --reset --quiet' http://localhost:8899/health test:live"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12x.5",
+    "@babel/runtime": "^7.12.5",
     "@dainocreation/web3.js": "^0.0.0-development",
     "@dainocreation/buffer-layout": "^3.0.0",
     "bn.js": "^5.0.0",
